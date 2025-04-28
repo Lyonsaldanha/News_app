@@ -133,3 +133,6 @@ LOGOUT_REDIRECT_URL = "home"
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"  # new
 CRISPY_TEMPLATE_PACK = "bootstrap5"
+
+# django_project/settings.py
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
